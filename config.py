@@ -18,7 +18,7 @@ class Config(object):
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 
     # premium account string session required 😢 
-    STRING_SESSION = os.environ.get("STRING_SESSION", "")
+    STRING_SESSION = os.environ.get("STRING_SESSION", "BQGiY98AhC6YDOTilbYuWSKv2Pi5AAOa1P00-EcNBWQFFrFZNwWodtW4At-ioDFevA6pn-rxqrfPbFVtPAkLEYR6q4z-5e6y1CuEuVwU_Uvk9wUS2d34qlOHzQK-C8rKEhYl9UBnEY-udggzjQWDI6nV7swivdsHPDZQNL3IDO7diRlmp1H9H_WgbBuB5WTkKhwO68hsJxfLzoe1FpNmmv0GppXN_1zMJVHdpECGilMjE2kA-PQJFAw2WFPE0FG6FiVthiYus5lsGpEJ8E-Tv68UCRNQlQdgcsCysSTXTN0w2RDnZBUHzLyhRNFhP6UEwV8CrB-6W6Ohi5fBklCLy23w9YEv2AAAAABbeKK6AA")
     
     # database config
     DB_NAME = os.environ.get("DB_NAME", "PrimeRp")     
