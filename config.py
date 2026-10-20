@@ -13,25 +13,25 @@ def _int_env(name, default=0):
 
 class Config(object):
 
-    API_ID = os.environ.get("API_ID", "")
-    API_HASH = os.environ.get("API_HASH", "")
+    API_ID = os.environ.get("API_ID", "27419615")
+    API_HASH = os.environ.get("API_HASH", "2f4b181296f0a2615a85471a1c72df44")
     BOT_TOKEN = os.environ.get("BOT_TOKEN", "")
 
     # premium account string session required 😢 
     STRING_SESSION = os.environ.get("STRING_SESSION", "")
     
     # database config
-    DB_NAME = os.environ.get("DB_NAME", "Rename_Bot")     
-    DB_URL = os.environ.get("DB_URL", "")
+    DB_NAME = os.environ.get("DB_NAME", "PrimeRp")     
+    DB_URL = os.environ.get("DB_URL", "mongodb+srv://PrimeRp:JNTymVXjKzBbDtiv@cluster0.rydwk.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
 
     # logging - canonical log path for setup and the /logs command
     LOG_FILE = os.path.join(os.path.dirname(os.path.abspath(__file__)), "BotLog.txt")
  
     # other configs
     PIC = os.environ.get("PIC", "https://i.ibb.co/YTk9gzhY/IMG-20250906-144306-804.jpg")
-    ADMIN = _int_env("ADMIN", 0)
-    LOG_CHANNEL = _int_env("LOG_CHANNEL", 0)
-    BIN_CHANNEL = _int_env("BIN_CHANNEL", 0)
+    ADMIN = _int_env("ADMIN", "1534632634")
+    LOG_CHANNEL = _int_env("LOG_CHANNEL","-1002098787584")
+    BIN_CHANNEL = _int_env("BIN_CHANNEL", "-1002098787584")
 
     # free upload limit 
     FREE_UPLOAD_LIMIT = 6442450944 # calculation 6*1024*1024*1024=results
@@ -60,7 +60,7 @@ class rkn(object):
 
 𝖳𝖺𝗉 𝖧𝖾𝗅𝗉 𝖳𝗈 𝖤𝗑𝗉𝗅𝗈𝗋𝖾 𝖠𝗅𝗅 𝖥𝖾𝖺𝗍𝗎𝗋𝖾𝗌
 
-<blockquote><b>‣ 𝖬𝖺𝗂𝗇𝗍𝖺𝗂𝗇𝖾𝖽 𝖡𝗒: <a href='https://techifybots.vercel.app'>𝖳𝖾𝖼𝗁𝗂𝖿𝗒 𝖡𝗈𝗍𝗌</a></b></blockquote>"""
+<blockquote><b>‣ 𝖬𝖺𝗂𝗇𝗍𝖺𝗂𝗇𝖾𝖽 𝖡𝗒: <a href='https://t.me/CodeifyBots'>Codeify 𝖡𝗈𝗍𝗌</a></b></blockquote>"""
 
     ABOUT_TXT = """<b>╭───────────⍟
 ├ 🤖 𝖭𝖺𝗆𝖾 : {}
@@ -69,7 +69,7 @@ class rkn(object):
 ├ 📕 𝖫𝗂𝖻𝗋𝖺𝗋𝗒 : {}
 ├ ✏️ 𝖫𝖺𝗇𝗀𝗎𝖺𝗀𝖾 : {}
 ├ 💾 𝖣𝖺𝗍𝖺𝖻𝖺𝗌𝖾 : {}
-├ 📊 𝖵𝖾𝗋𝗌𝗂𝗈𝗇 : <a href=https://github.com/TechifyBots/Rename-Bot>{}</a>
+├ 📊 𝖵𝖾𝗋𝗌𝗂𝗈𝗇 : 1.0.0
 ╰───────────────⍟</b>"""
 
     HELP_TXT = """✏️ <b><u>𝖧𝗈𝗐 𝖳𝗈 𝖱𝖾𝗇𝖺𝗆𝖾 𝖠 𝖥𝗂𝗅𝖾</u></b>
@@ -77,7 +77,7 @@ class rkn(object):
 <b>•></b> 𝖲𝖾𝗇𝖽 𝖠𝗇𝗒 𝖥𝗂𝗅𝖾 𝖠𝗇𝖽 𝖤𝗇𝗍𝖾𝗋 𝖳𝗁𝖾 𝖭𝖾𝗐 𝖥𝗂𝗅𝖾 𝖭𝖺𝗆𝖾.
 𝖳𝗁𝖾𝗇 𝖲𝖾𝗅𝖾𝖼𝗍 𝖳𝗁𝖾 𝖱𝖾𝗊𝗎𝗂𝗋𝖾𝖽 𝖥𝗈𝗋𝗆𝖺𝗍 [ 𝖣𝗈𝖼𝗎𝗆𝖾𝗇𝗍, 𝖵𝗂𝖽𝖾𝗈, 𝖠𝗎𝖽𝗂𝗈 ].
 
-ℹ️ 𝖥𝗈𝗋 𝖠𝗇𝗒 𝖮𝗍𝗁𝖾𝗋 𝖧𝖾𝗅𝗉, 𝖢𝗈𝗇𝗍𝖺𝖼𝗍 𝖮𝗎𝗋 <a href=https://t.me/TechifySupport>𝖲𝖴𝖯𝖯𝖮𝖱𝖳 𝖦𝖱𝖮𝖴𝖯</a>"""
+ℹ️ 𝖥𝗈𝗋 𝖠𝗇𝗒 𝖮𝗍𝗁𝖾𝗋 𝖧𝖾𝗅𝗉, 𝖢𝗈𝗇𝗍𝖺𝖼𝗍 𝖮𝗎𝗋 <a href=https://t.me/+H5X2Wlj8DZo3NTY1>𝖲𝖴𝖯𝖯𝖮𝖱𝖳 𝖦𝖱𝖮𝖴𝖯</a>"""
 
     UPGRADE_PREMIUM = """
 •⪼ ★ 𝖯𝗅𝖺𝗇𝗌    -  ⏳ 𝖣𝗎𝗋𝖺𝗍𝗂𝗈𝗇 - 💸 𝖯𝗋𝗂𝖼𝖾
@@ -169,8 +169,8 @@ class rkn(object):
 ➢ /seesuffix - 𝖴𝗌𝖾 𝖳𝗁𝗂𝗌 𝖢𝗈𝗆𝗆𝖺𝗇𝖽 𝖳𝗈 𝖵𝗂𝖾𝗐 𝖸𝗈𝗎𝗋 𝖲𝗎𝖿𝖿𝗂𝗑.
 ➢ /delsuffix - 𝖴𝗌𝖾 𝖳𝗁𝗂𝗌 𝖢𝗈𝗆𝗆𝖺𝗇𝖽 𝖳𝗈 𝖣𝖾𝗅𝖾𝗍𝖾 𝖸𝗈𝗎𝗋 𝖲𝗎𝖿𝖿𝗂𝗑.
 
-𝖤𝗑𝖺𝗆𝗉𝗅𝖾: <code>/setsuffix @TechifyBots</code>
-𝖤𝗑𝖺𝗆𝗉𝗅𝖾: <code>/setprefix @TechifyBots</code>"""
+𝖤𝗑𝖺𝗆𝗉𝗅𝖾: <code>/setsuffix @CodeifyBots</code>
+𝖤𝗑𝖺𝗆𝗉𝗅𝖾: <code>/setprefix @CodeifyBots</code>"""
 
     DEV_TXT = """<b><u>𝖲𝗉𝖾𝖼𝗂𝖺𝗅 𝖳𝗁𝖺𝗇𝗄𝗌 & 𝖣𝖾𝗏𝖾𝗅𝗈𝗉𝖾𝗋𝗌</u></b>
 
